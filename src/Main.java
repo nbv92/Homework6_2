@@ -58,17 +58,16 @@ public class Main {
         System.out.print("Input a year: ");
         int year = in.nextInt();
         methodYear(year);
-        in.close();
     }
 
     public static void task2(){
         System.out.println("task2");
         Scanner in = new Scanner(System.in);
         System.out.print("Input a your phone OS: 1 - for Android, 2 - for iOS ");
+        System.out.println("Your phone: ");
         int clientOS = in.nextInt();
         int clientDeviceYear = 2023;
         deviceOS(clientOS,clientDeviceYear);
-        in.close();
     }
 
    public static void task3(){
