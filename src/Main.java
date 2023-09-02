@@ -78,5 +78,5 @@ public class Main {
         int day = 1;
         distance(eliveryDistance, day);
         in.close();
-    }
+    }//
 }
